@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "tugas express js",
   "main": "index.js",
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
+    "start": "node index.js"
   },
   "author": "zawzero",
   "license": "ISC",
