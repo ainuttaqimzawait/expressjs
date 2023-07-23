@@ -11,4 +11,10 @@ router.get('/', (req, res) => {
     });
 });
 
+router.get('/product/:id', (req, res) => {
+    res.send({
+        id: req.params.id
+    });
+});
+
 module.exports = router;
